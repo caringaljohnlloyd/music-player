@@ -1,0 +1,757 @@
+CRITICAL - 2023-09-24 08:02:24 --> Undefined variable $playlists
+in APPPATH\Views\player.php on line 72.
+ 1 APPPATH\Views\player.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(13): view('player')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 08:02:28 --> Undefined variable $playlists
+in APPPATH\Views\player.php on line 72.
+ 1 APPPATH\Views\player.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(13): view('player')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 08:02:30 --> Undefined variable $playlists
+in APPPATH\Views\player.php on line 72.
+ 1 APPPATH\Views\player.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(13): view('player')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 08:02:34 --> Undefined variable $playlists
+in APPPATH\Views\player.php on line 72.
+ 1 APPPATH\Views\player.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(13): view('player')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:03:40 --> Undefined variable $mus
+in APPPATH\Views\player.php on line 81.
+ 1 APPPATH\Views\player.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mus', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:04:02 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 81.
+ 1 APPPATH\Views\player.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:00 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:01 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:01 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:07:14 --> Undefined array key "ID"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:08:08 --> Undefined array key "title"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:08:54 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 84.
+ 1 APPPATH\Views\player.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:08:55 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 84.
+ 1 APPPATH\Views\player.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:08:55 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 84.
+ 1 APPPATH\Views\player.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:11:49 --> Undefined variable $mus
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mus', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:11:50 --> Undefined variable $mus
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mus', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:11:50 --> Undefined variable $mus
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mus', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:11:56 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:26 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:27 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:27 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:27 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:27 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:28 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:28 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 144.
+ 1 APPPATH\Views\player.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 144)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:14:57 --> Undefined array key "artist"
+in APPPATH\Views\player.php on line 146.
+ 1 APPPATH\Views\player.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "artist"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 146)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:03 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:04 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:04 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:05 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:05 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:05 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 141.
+ 1 APPPATH\Views\player.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:17:25 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:25:55 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:36:07 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:36:08 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:36:09 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 11:42:09 --> Undefined array key "id"
+in APPPATH\Views\player.php on line 136.
+ 1 APPPATH\Views\player.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\player\\app\\Views\\player.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\player\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(30): view('player', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:10:53 --> Call to a member function move() on string
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:14:24 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:14:31 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:15:25 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:23:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:23:39 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:26:10 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:27:23 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:28:18 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:29:13 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:30:20 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:31:24 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:31:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:32:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:32:54 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:34:09 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:37:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:37:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:38:59 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:39:07 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:42:21 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:43:49 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:45:31 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:46:26 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:46:33 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:47:19 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:49:05 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:49:13 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:54:02 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:57:47 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:58:24 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 12:58:29 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:03:15 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:05:51 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:07:40 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:08:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:08:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:10:52 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:14:00 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:14:32 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 13:36:04 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 14:01:30 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
+CRITICAL - 2023-09-24 14:11:44 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\player\\public\\index.php')
