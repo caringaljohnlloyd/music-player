@@ -4,54 +4,103 @@ namespace App\Controllers;
 
 use App\Models\MusicModel;
 use App\Models\PlaylistModel;
-//use App\Models\MusicPlaylistModel;
+use App\Models\MusicPlaylistModel;
 
 use App\Controllers\BaseController;
 
 class MusicController extends BaseController
 {
-    protected $music;
-    protected $playlistModel;
-  //  protected $musicplaylist;
-
+    private $playlist;
+    private $music;
+    private $tracks;
 
     public function __construct()
     {
+        $this->playlist = new PlaylistModel();
         $this->music = new MusicModel();
-        $this->playlistModel = new PlaylistModel();
-    //    $this->musicplaylist = new MusicPlaylistModel();
-
+        $this->tracks = new MusicPlaylistModel();
     }
-
     public function index()
     {
+        $data['playlists'] = $this->playlist->findAll();
         $data['music'] = $this->music->findAll();
-        $data['playlists'] = $this->playlistModel->findAll();
         return view('player', $data);
     }
-
-    public function playlists()
+    public function create()
     {
-        $data['music'] = $this->music->findAll();
-        $data['playlists'] = $this->playlistModel->findAll();
-        
+        $data = [
+            'name' => $this->request->getPost('name')
+        ];
+        $this->playlist->insert($data);
+        return redirect()->to('/player');
+    }
+
+    public function playlists($id)
+    {
+        $playlist = $this->playlist->find($id);
+    
+        if ($playlist) {
+            $tracks = $this->tracks->where('playlist_id', $id)->findAll();
+            $music = [];
+            foreach ($tracks as $track) {
+                $musicItem = $this->music->find($track['music_id']);
+                if ($musicItem) {
+                    $music[] = $musicItem;
+                }
+            }
+            $data = [
+                'playlist' => $playlist,
+                'music' => $music,
+                'playlists' => $this->playlist->findAll(),
+                'tracks' => $tracks,
+            ];
+    
+            var_dump($data); // Corrected "var_dump" to "vardump"
+    
+           // return view('player', $data);
+        } else {
+           // return redirect()->to('/player');
+        }
+    }
+    
+
+    public function search()
+    {
+        $search = $this->request->getGet('title');
+        $musicResults = $this->music->like('title', '%' . $search . '%')->findAll();
+        $data = [
+            'playlists' => $this->playlist->findAll(),
+            'music' => $musicResults,
+        ];
         return view('player', $data);
+    }
+    public function add()
+    {
+
+        $musicID = $this->request->getPost('musicID');
+        $playlistID = $this->request->getPost('playlist');
+
+        $data = [
+            'playlist_id' => $playlistID,
+            'music_id' => $musicID,
+        ];
+        $this->tracks->insert($data);
+        return redirect()->to('/player');
     }
 
     public function upload()
     {
+        $file = $this->request->getFile('file');
         $title = $this->request->getPost('title');
         $artist = $this->request->getPost('artist');
-        $file_path = $this->request->getFile('file_path');
         $newName = $title . '_' . $artist . '.' . 'mp3';
-        $file_path->move(ROOTPATH . 'public/', $newName);
-            $data = [
-                'title' => $title,
-                'artist' => $artist,
-                'file_path' => $newName
-            ];
-            $this->music->insert($data);
-            return redirect()->to('/player');
-        
+        $file->move(ROOTPATH . 'public/', $newName);
+        $data = [
+            'title' => $title,
+            'artist' => $artist,
+            'file_path' => $newName
+        ];
+        $this->music->insert($data);
+        return redirect()->to('/player');
     }
-}    
+}
