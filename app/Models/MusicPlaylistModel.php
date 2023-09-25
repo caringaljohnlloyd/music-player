@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class MusicPlaylistModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'musicplaylists';
+    protected $table            = 'playlist_music';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';

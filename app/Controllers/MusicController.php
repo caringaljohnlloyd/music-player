@@ -55,11 +55,11 @@ class MusicController extends BaseController
                 'tracks' => $tracks,
             ];
     
-            var_dump($data); // Corrected "var_dump" to "vardump"
+            
     
-           // return view('player', $data);
+            return view('player', $data);
         } else {
-           // return redirect()->to('/player');
+           return redirect()->to('/player');
         }
     }
     
@@ -103,4 +103,5 @@ class MusicController extends BaseController
         $this->music->insert($data);
         return redirect()->to('/player');
     }
+    
 }

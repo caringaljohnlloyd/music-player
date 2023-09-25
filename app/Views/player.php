@@ -114,8 +114,9 @@
                     <?= $mus['title'] ?>
                 </a>
                 <button class="open-modal btn btn-primary" data-target="#mymodal" data-toggle="modal" data-music-id="<?= $mus['id'] ?>">
-                    +
+                +   
                 </button>
+                
             </li>
         <?php endforeach; ?>
     </ul>
