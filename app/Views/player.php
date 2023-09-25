@@ -90,7 +90,7 @@
         </div>
     </div>
     <form action="/search" method="get">
-        <div class="input-group">
+        <div class="input-group ">
             <input type="search" name="title" class="form-control" placeholder="Search for a song" required>
             <button type="submit" class="btn btn-primary">Search</button>
         </div>
